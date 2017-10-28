@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Color Theory Quiz </title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<div class="row">
+  <div class="col-sm-9">
+
+<h1>
+  Color Theory Quiz
+</h1>
+<p>
+ Do you think you know color theory? Take this quiz to find out! All of the information came from <a href="https://en.wikipedia.org/wiki/Color_theory#Color_abstractions" target="-blank"> here</a>, so you can study up beforehand.
+ </p>
+<form>
+
+<div class="form-group">
+	<label class="form-control-label">Which of these is a warm color?</label>
+<ol>
+<li><input class="form-control" type="radio" name="warm" value="green"> Green</li>
+<li><input class="form-control" type="radio" name="warm" value="red"> Red</li>
+<li><input class="form-control" type="radio" name="warm" value="blue"> Blue</li>
+<li><input class="form-control" type="radio" name="warm" value="Purple"> Purple</li>
+</ol>
+</div>
+
+	<div class="form-group">
+<label class="form-control-label">What is an example of an achromatic color?</label>
+<input class="form-control" type="text" name="achromatic" id="achromaticquestion">
+<p>Which of the color combinations are complementary? Check all that apply.</p>
+<ol>
+<li><input class="form-control" type="checkbox" name="complementary" value="redandpink"> Red and pink</li>
+<li><input class="form-control" type="checkbox" name="complementary" value="greenandblue"> Green and blue</li>
+<li><input class="form-control" type="checkbox" name="complementary" value="orangandblue"> Orange and Blue</li>
+<li><input class="form-control" type="checkbox" name="complementary" value="yellowandorange"> Yellow and orange</li>
+</ol>
+</div>
+
+	<div class="form-group">
+<label class="form-control-label">Describe the difference between additive and subtractive color.</label><br>
+  <textarea name="additive" rows="3" ></textarea>
+</div>
+
+	<div class="form-group">
+	<label class="form-control-label">How many different hues can humans percieve?</label>
+  <select class=form-control name="hues" id="huesnumber">
+  <option id="9">900,000</option>
+  <option id="1">1.8 million</option>
+  <option id="2">2.8 million</option>
+  <option id="3">3 million</option>
+  <option id="4">4.2 million</option>
+  <option id="5" >5.4 million</option>
+  </select>
+</div>
+
+<div class="form-group">
+<label class="form-control-label">What is a circular tool that helps artists understand the relationship between colors?</label>
+<input class="form-control" type="text" name="colorwheel" id="colorwheelquestion">
+</div>
+
+<div class="form-group">
+<input class="btn btn-primary" type="submit" value="Submit"> <input class="btn" type="reset" value="Reset">
+</div>
+
+</form>
+
+  </div>
+</div>
+</div>
+  </body>
+  </html>
